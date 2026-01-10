@@ -14,16 +14,18 @@ b=4
 
 '''
 
-
-
 print("ingresa un numero")
 num1 = input()
-print(" por este numeroingresa otro numero")
+print("ingresa otro numero")
 num2 = input()
 
-tem=''
-resultado=0
-while num1==num2:
-    tem+=str(x)+'x'
-    resultado+=num1
-    
+num1 = int(num1)
+num2 = int(num2)
+
+resultado = 0
+contador = 0
+while contador < num2:
+    resultado += num1
+    contador += 1
+
+print("la multiplicacion de {} por {} es {}".format(num1, num2, resultado))
