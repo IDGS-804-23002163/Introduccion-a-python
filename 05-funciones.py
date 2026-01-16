@@ -1,3 +1,4 @@
+
 import os
 
 
@@ -34,30 +35,31 @@ elegir que operacion realizar
 
 
 def suma():
-    print("ingresa dos numeros para sumarlos")
-    num1=input("ingresa el primer numero: ")
-    num2=input("ingresa el segundo numero: ")
-    resultado=num1+num2
+    print("Ingresa dos números para sumarlos")
+    num1 = int(input("Ingresa el primer número: "))
+    num2 = int(input("Ingresa el segundo número: "))
+    resultado = num1 + num2
     return resultado
+
 
 def resta():
     print("ingresa dos numeros para restarlos")
-    num1=input("ingresa el primer numero: ")
-    num2=input("ingresa el segundo numero: ")
+    num1=int(input("ingresa el primer numero: "))
+    num2=int(input("ingresa el segundo numero: "))
     resultado=num1-num2
     return resultado
 
 def multiplicacion():
     print("ingresa dos numeros para multiplicar")
-    num1=input("ingrsa el primer numero: ")
-    num2=input("ingresa el segundo numero: ")
+    num1=int(input("ingrsa el primer numero: "))
+    num2=int(input("ingresa el segundo numero: "))
     resultado=num1*num2
     return resultado
 
 def division():
     print("ingresa dos numeros para dividir")
-    num1=input("ingresa el primer numero: ")
-    num2=input("ingresa el segundo numero: ")
+    num1=int(input("ingresa el primer numero: "))
+    num2=int(input("ingresa el segundo numero: "))
     resultado=num1/num2
     return resultado
 
